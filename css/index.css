@@ -1,0 +1,85 @@
+/* profile photos */ 
+.groom-bride-name {
+    font-size: 35px !important;
+}
+
+#profile_photo_subtitle {
+      font-size: 35px !important;
+}
+
+@media screen and (max-width: 480px) {
+  #profile_photo_subtitle {
+      font-size: 25px !important;
+  }
+}
+
+/* countdown */
+#fh5co-countdown {
+    padding: 1em 0;
+}
+
+.countdown-time {
+    font-size: 30px;
+}
+
+#fh5co-countdown .countdown {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    #fh5co-countdown .countdown {
+        font-size: 22px;
+    }
+    
+    #fh5co-countdown .countdown span {
+        margin: 0 15px;
+    }
+    
+    .countdown-time {
+        font-size: 15px !important;
+    }
+    
+    #fh5co-countdown .countdown small {
+        font-size: 12px;
+    }
+}
+
+/* payment */
+#payment_desc {
+    color: #fff;
+    font-size: 18px;
+}
+
+#payment_iban {
+    color: #fff;
+    margin-bottom: 0em;
+}
+
+#payment_people {
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    #payment_desc {
+        font-size: 14px;
+    }
+    
+    #payment_iban {
+        font-size: 12px;
+    }
+    
+    #payment_people {
+        font-size: 12px;
+    }
+}   
+
+/* maps */
+.maps-box {
+    padding: 0% 2.5%;
+}
+
+.wedding-events {
+    background: #fff;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
